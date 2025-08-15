@@ -19,8 +19,11 @@
     "wms_serial_port": "device(subsystem=tty)",
     "ignored_devices": "str?",
     "force_devices": "str?"
+    "mqtt": {
+      "server": "str?",
+      "user": "str?",
+      "password": "str?"
+    }
   },
-  "services": [
-    "mqtt:need"
-  ]
+  "services": []
 }
