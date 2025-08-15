@@ -23,7 +23,5 @@
     "mqtt.user": "str?",
     "mqtt.password": "str?"
   },
-  "services": [
-    "mqtt:need"
-  ]
+  "services": []
 }
