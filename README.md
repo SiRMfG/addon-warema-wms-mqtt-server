@@ -7,7 +7,7 @@ In order to use this addon you'll need a Warema WMS stick (https://www.warema.co
 ### Configuration
 
 MQTT_SERVER
-: MQTT server url (ie: http://localhost:1883)
+: MQTT server url (ie: http://localhost:1883). If not set, defaults to Home Assistant's MQTT broker.
 
 MQTT_USER
 : Username for MQTT server authentication

@@ -10,7 +10,10 @@
   "hassio_api": true,
   "image": "giannello/addon-warema-bridge",
   "options": {
-    "wms_serial_port": null
+    "wms_serial_port": null,
+    "mqtt.server": null,
+    "mqtt.user": null,
+    "mqtt.password": null
   },
   "schema": {
     "wms_key": "str?",
